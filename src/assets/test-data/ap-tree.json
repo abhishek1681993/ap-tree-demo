@@ -1,0 +1,630 @@
+[
+    {
+        "data": {
+            "name": "Level-0-0",
+            "icon": "",
+            "iconPath": "",
+            "key1": "",
+            "key2": ""
+        },
+        "config": {
+            "hasPendingChildren": false,
+            "hasChildren": false
+        },
+        "children": [
+            {
+                "data": {
+                    "name": "Level-1-0",
+                    "icon": "",
+                    "iconPath": "",
+                    "key1": "",
+                    "key2": ""
+                },
+                "config": {
+                    "hasPendingChildren": false,
+                    "hasChildren": false
+                },
+                "children": [
+        
+                ]
+            },
+            {
+                "data": {
+                    "name": "Level-1-1",
+                    "icon": "",
+                    "iconPath": "",
+                    "key1": "",
+                    "key2": ""
+                },
+                "config": {
+                    "hasPendingChildren": false,
+                    "hasChildren": false
+                },
+                "children": [
+                    {
+                        "data": {
+                            "name": "Level-2-0",
+                            "icon": "",
+                            "iconPath": "",
+                            "key1": "",
+                            "key2": ""
+                        },
+                        "config": {
+                            "hasPendingChildren": false,
+                            "hasChildren": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "name": "Level-3-0",
+                                    "icon": "",
+                                    "iconPath": "",
+                                    "key1": "",
+                                    "key2": ""
+                                },
+                                "config": {
+                                    "hasPendingChildren": false,
+                                    "hasChildren": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "name": "Level-3-1",
+                                    "icon": "",
+                                    "iconPath": "",
+                                    "key1": "",
+                                    "key2": ""
+                                },
+                                "config": {
+                                    "hasPendingChildren": false,
+                                    "hasChildren": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "name": "Level-3-2",
+                                    "icon": "",
+                                    "iconPath": "",
+                                    "key1": "",
+                                    "key2": ""
+                                },
+                                "config": {
+                                    "hasPendingChildren": false,
+                                    "hasChildren": false
+                                },
+                                "children": [
+                        
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "name": "Level-2-1",
+                            "icon": "",
+                            "iconPath": "",
+                            "key1": "",
+                            "key2": ""
+                        },
+                        "config": {
+                            "hasPendingChildren": false,
+                            "hasChildren": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                            "name": "Level-2-2",
+                            "icon": "",
+                            "iconPath": "",
+                            "key1": "",
+                            "key2": ""
+                        },
+                        "config": {
+                            "hasPendingChildren": false,
+                            "hasChildren": false
+                        },
+                        "children": [
+                
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "name": "Level-1-2",
+                    "icon": "",
+                    "iconPath": "",
+                    "key1": "",
+                    "key2": ""
+                },
+                "config": {
+                    "hasPendingChildren": false,
+                    "hasChildren": false
+                },
+                "children": [
+        
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "name": "Level-1-1-0",
+            "icon": "",
+            "iconPath": "",
+            "key1": "",
+            "key2": ""
+        },
+        "config": {
+            "hasPendingChildren": false,
+            "hasChildren": false
+        },
+        "children": [
+            {
+                "data": {
+                    "name": "Level-1-0",
+                    "icon": "",
+                    "iconPath": "",
+                    "key1": "",
+                    "key2": ""
+                },
+                "config": {
+                    "hasPendingChildren": false,
+                    "hasChildren": false
+                },
+                "children": [
+        
+                ]
+            },
+            {
+                "data": {
+                    "name": "Level-1-1",
+                    "icon": "",
+                    "iconPath": "",
+                    "key1": "",
+                    "key2": ""
+                },
+                "config": {
+                    "hasPendingChildren": false,
+                    "hasChildren": false
+                },
+                "children": [
+                    {
+                        "data": {
+                            "name": "Level-2-0",
+                            "icon": "",
+                            "iconPath": "",
+                            "key1": "",
+                            "key2": ""
+                        },
+                        "config": {
+                            "hasPendingChildren": false,
+                            "hasChildren": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "name": "Level-3-0",
+                                    "icon": "",
+                                    "iconPath": "",
+                                    "key1": "",
+                                    "key2": ""
+                                },
+                                "config": {
+                                    "hasPendingChildren": false,
+                                    "hasChildren": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "name": "Level-3-1",
+                                    "icon": "",
+                                    "iconPath": "",
+                                    "key1": "",
+                                    "key2": ""
+                                },
+                                "config": {
+                                    "hasPendingChildren": false,
+                                    "hasChildren": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "name": "Level-3-2",
+                                    "icon": "",
+                                    "iconPath": "",
+                                    "key1": "",
+                                    "key2": ""
+                                },
+                                "config": {
+                                    "hasPendingChildren": false,
+                                    "hasChildren": false
+                                },
+                                "children": [
+                        
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "name": "Level-2-1",
+                            "icon": "",
+                            "iconPath": "",
+                            "key1": "",
+                            "key2": ""
+                        },
+                        "config": {
+                            "hasPendingChildren": false,
+                            "hasChildren": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                            "name": "Level-2-2",
+                            "icon": "",
+                            "iconPath": "",
+                            "key1": "",
+                            "key2": ""
+                        },
+                        "config": {
+                            "hasPendingChildren": false,
+                            "hasChildren": false
+                        },
+                        "children": [
+                
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "name": "Level-1-2",
+                    "icon": "",
+                    "iconPath": "",
+                    "key1": "",
+                    "key2": ""
+                },
+                "config": {
+                    "hasPendingChildren": false,
+                    "hasChildren": false
+                },
+                "children": [
+        
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "name": "Level-2-0-0",
+            "icon": "",
+            "iconPath": "",
+            "key1": "",
+            "key2": ""
+        },
+        "config": {
+            "hasPendingChildren": false,
+            "hasChildren": false
+        },
+        "children": [
+            {
+                "data": {
+                    "name": "Level-1-0",
+                    "icon": "",
+                    "iconPath": "",
+                    "key1": "",
+                    "key2": ""
+                },
+                "config": {
+                    "hasPendingChildren": false,
+                    "hasChildren": false
+                },
+                "children": [
+        
+                ]
+            },
+            {
+                "data": {
+                    "name": "Level-1-1",
+                    "icon": "",
+                    "iconPath": "",
+                    "key1": "",
+                    "key2": ""
+                },
+                "config": {
+                    "hasPendingChildren": false,
+                    "hasChildren": false
+                },
+                "children": [
+                    {
+                        "data": {
+                            "name": "Level-2-0",
+                            "icon": "",
+                            "iconPath": "",
+                            "key1": "",
+                            "key2": ""
+                        },
+                        "config": {
+                            "hasPendingChildren": false,
+                            "hasChildren": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "name": "Level-3-0",
+                                    "icon": "",
+                                    "iconPath": "",
+                                    "key1": "",
+                                    "key2": ""
+                                },
+                                "config": {
+                                    "hasPendingChildren": false,
+                                    "hasChildren": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "name": "Level-3-1",
+                                    "icon": "",
+                                    "iconPath": "",
+                                    "key1": "",
+                                    "key2": ""
+                                },
+                                "config": {
+                                    "hasPendingChildren": false,
+                                    "hasChildren": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "name": "Level-3-2",
+                                    "icon": "",
+                                    "iconPath": "",
+                                    "key1": "",
+                                    "key2": ""
+                                },
+                                "config": {
+                                    "hasPendingChildren": false,
+                                    "hasChildren": false
+                                },
+                                "children": [
+                        
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "name": "Level-2-1",
+                            "icon": "",
+                            "iconPath": "",
+                            "key1": "",
+                            "key2": ""
+                        },
+                        "config": {
+                            "hasPendingChildren": false,
+                            "hasChildren": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                            "name": "Level-2-2",
+                            "icon": "",
+                            "iconPath": "",
+                            "key1": "",
+                            "key2": ""
+                        },
+                        "config": {
+                            "hasPendingChildren": false,
+                            "hasChildren": false
+                        },
+                        "children": [
+                
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "name": "Level-1-2",
+                    "icon": "",
+                    "iconPath": "",
+                    "key1": "",
+                    "key2": ""
+                },
+                "config": {
+                    "hasPendingChildren": false,
+                    "hasChildren": false
+                },
+                "children": [
+        
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "name": "Level-0-0",
+            "icon": "",
+            "iconPath": "",
+            "key1": "",
+            "key2": ""
+        },
+        "config": {
+            "hasPendingChildren": false,
+            "hasChildren": false
+        },
+        "children": [
+            {
+                "data": {
+                    "name": "Level-1-0",
+                    "icon": "",
+                    "iconPath": "",
+                    "key1": "",
+                    "key2": ""
+                },
+                "config": {
+                    "hasPendingChildren": false,
+                    "hasChildren": false
+                },
+                "children": [
+        
+                ]
+            },
+            {
+                "data": {
+                    "name": "Level-1-1",
+                    "icon": "",
+                    "iconPath": "",
+                    "key1": "",
+                    "key2": ""
+                },
+                "config": {
+                    "hasPendingChildren": false,
+                    "hasChildren": false
+                },
+                "children": [
+                    {
+                        "data": {
+                            "name": "Level-2-0",
+                            "icon": "",
+                            "iconPath": "",
+                            "key1": "",
+                            "key2": ""
+                        },
+                        "config": {
+                            "hasPendingChildren": false,
+                            "hasChildren": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "name": "Level-3-0",
+                                    "icon": "",
+                                    "iconPath": "",
+                                    "key1": "",
+                                    "key2": ""
+                                },
+                                "config": {
+                                    "hasPendingChildren": false,
+                                    "hasChildren": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "name": "Level-3-1",
+                                    "icon": "",
+                                    "iconPath": "",
+                                    "key1": "",
+                                    "key2": ""
+                                },
+                                "config": {
+                                    "hasPendingChildren": false,
+                                    "hasChildren": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "name": "Level-3-2",
+                                    "icon": "",
+                                    "iconPath": "",
+                                    "key1": "",
+                                    "key2": ""
+                                },
+                                "config": {
+                                    "hasPendingChildren": false,
+                                    "hasChildren": false
+                                },
+                                "children": [
+                        
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "name": "Level-2-1",
+                            "icon": "",
+                            "iconPath": "",
+                            "key1": "",
+                            "key2": ""
+                        },
+                        "config": {
+                            "hasPendingChildren": false,
+                            "hasChildren": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                            "name": "Level-2-2",
+                            "icon": "",
+                            "iconPath": "",
+                            "key1": "",
+                            "key2": ""
+                        },
+                        "config": {
+                            "hasPendingChildren": false,
+                            "hasChildren": false
+                        },
+                        "children": [
+                
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "name": "Level-1-2",
+                    "icon": "",
+                    "iconPath": "",
+                    "key1": "",
+                    "key2": ""
+                },
+                "config": {
+                    "hasPendingChildren": false,
+                    "hasChildren": false
+                },
+                "children": [
+        
+                ]
+            }
+        ]
+    }
+]

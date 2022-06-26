@@ -1,0 +1,3 @@
+<div *ngFor="let item of itemSource">
+    <ap-tree-child [apTreeNode]="item" (onClick)="onClickHandler($event)" (onRightClick)="onRightClickHandler($event)"></ap-tree-child>
+</div>
