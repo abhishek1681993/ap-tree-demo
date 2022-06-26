@@ -1,6 +1,15 @@
 {
   "name": "ap-tree-demo",
   "version": "0.0.0",
+  "author": {
+    "email": "ap1681993@gmail.com",
+    "name": "Abhishek Priyadarshi"
+  },
+  "repository": {
+    "url": "https://github.com/abhishek1681993/ap-tree-demo/tree/master",
+    "type": "git"
+  },
+  "keywords": ["angular", "tree", "angular-tree", "multi-level-tree", "ap-tree"],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
