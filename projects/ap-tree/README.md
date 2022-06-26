@@ -1,4 +1,39 @@
 # ApTree
+## Use
+### import "ApTreeModule" into your module
+
+`
+import { ApTreeModule } from 'ap-tree';
+`
+
+``
+@NgModule({
+  declarations: [],
+  imports: [
+    AppRoutingModule
+  ]
+})
+``
+### Use component selector in your template
+`
+<ap-tree [itemSource]="itemSource" (onClick)="onClickHandler($event)" (onRightClick)="onRightClickHandler($event)"></ap-tree>
+`
+#### Where itemSource
+`
+let itemSource: Array<ApTreeNode> = [];
+export interface ApTreeNode {
+    data: any;
+    config?: ApTreeNodeConfig;
+    children?: Array<ApTreeNode>
+}
+
+export interface ApTreeNodeConfig {
+    hasPendingChildren: boolean;
+    hasChildren: boolean;
+}
+`
+
+
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 

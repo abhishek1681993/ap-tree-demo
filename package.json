@@ -14,6 +14,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-lib": "ng build ap-tree",
+    "build-lib:prod": "ng build ap-tree -c=production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
