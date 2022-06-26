@@ -1,6 +1,15 @@
 {
   "name": "ap-tree",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "author": {
+    "email": "ap1681993@gmail.com",
+    "name": "Abhishek Priyadarshi"
+  },
+  "repository": {
+    "url": "https://github.com/abhishek1681993/ap-tree-demo/tree/master",
+    "type": "git"
+  },
+  "keywords": ["angular", "tree", "angular-tree", "multi-level-tree", "ap-tree"],
   "peerDependencies": {
     "@angular/common": "^14.0.0",
     "@angular/core": "^14.0.0"

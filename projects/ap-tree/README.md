@@ -1,4 +1,7 @@
 # ApTree
+## Github URL
+https://github.com/abhishek1681993/ap-tree-demo/tree/master
+
 ## Use
 ### import "ApTreeModule" into your module
 
@@ -18,15 +21,20 @@ import { ApTreeModule } from 'ap-tree';
 `
 <ap-tree [itemSource]="itemSource" (onClick)="onClickHandler($event)" (onRightClick)="onRightClickHandler($event)"></ap-tree>
 `
-#### Where itemSource
+### Where itemSource
 `
-let itemSource: Array<ApTreeNode> = [];
+let itemSource: Array<ApTreeNode>;
+`
+
+`
 export interface ApTreeNode {
     data: any;
     config?: ApTreeNodeConfig;
     children?: Array<ApTreeNode>
 }
+`
 
+`
 export interface ApTreeNodeConfig {
     hasPendingChildren: boolean;
     hasChildren: boolean;
