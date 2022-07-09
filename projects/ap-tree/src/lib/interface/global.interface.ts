@@ -10,10 +10,6 @@ export interface ApTreeNodeConfig {
     hasChildren: boolean;
 }
 
-export interface ApTreeView {
-
-}
-
 // export interface ApItemsource {
     
 // }

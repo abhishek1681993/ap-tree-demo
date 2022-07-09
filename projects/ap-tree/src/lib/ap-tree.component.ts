@@ -1,4 +1,5 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { ApTreeView } from './baseClasses/ap-tree-view';
 import { ApTreeData } from './interface/global.interface';
 
 @Component({
@@ -10,6 +11,7 @@ import { ApTreeData } from './interface/global.interface';
 export class ApTreeComponent implements OnInit {
   @Output() public onRightClick: EventEmitter<any> = new EventEmitter();
   @Output() public onClick: EventEmitter<any> = new EventEmitter();
+  @Output() public onFormatItem: EventEmitter<any> = new EventEmitter();
   
   public get itemSource() :  Array<ApTreeData> {
     return this._itemSource;
@@ -32,7 +34,9 @@ export class ApTreeComponent implements OnInit {
   
   private _itemSource: Array<ApTreeData> = [];
 
-  constructor() { }
+  constructor(
+    private _elementRef: ElementRef
+  ) { }
 
   ngOnInit(): void {
   }
@@ -44,4 +48,10 @@ export class ApTreeComponent implements OnInit {
   onRightClickHandler(event: any) {
     this.onRightClick.emit(event);
   }
+
+  onformatItemHandler(event: any) {
+    const _treeView: ApTreeView = new ApTreeView(this._elementRef, {_itemSource: this._itemSource})
+    this.onFormatItem.emit({_treeView , _node: event});
+  }
+
 }

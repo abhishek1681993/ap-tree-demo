@@ -1,11 +1,17 @@
 <div *ngIf="apTreeNode">
     <span class="tree-node" (contextmenu)="onRightClickHandler($event, apTreeNode)" (click)="onClickHandler($event, apTreeNode)">
         <i *ngIf="hasChildren" class="arrow" [ngClass]="isChildHidden ? 'right' : 'down'"></i>
-        <span class="text-node">{{apTreeNode?.data && apTreeNode?.data[_displayMemberPath]}}</span>
+        <span #apTreeChildElement class="text-node">{{apTreeNode?.data && apTreeNode?.data[_displayMemberPath]}}</span>
     </span>    
     <div [hidden] ="isChildHidden" class="child-nodes content" *ngIf="hasChildren">
         <div *ngFor="let item of apTreeNode?.children">
-            <ap-tree-child [apTreeNode]="item" [level]="level+1" [displayMemberPath]="_displayMemberPath_child"></ap-tree-child>
+            <ap-tree-child 
+                [apTreeNode]="item"
+                [level]="level+1"
+                [displayMemberPath]="_displayMemberPath_child"
+                (onClick)="onClick_Child($event)"
+                (onRightClick)="onRightClick_Child($event)"
+                (onFormatItem)="onformatItem_Child($event)"></ap-tree-child>
         </div>
     </div>
 </div>

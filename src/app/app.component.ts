@@ -42,4 +42,9 @@ export class AppComponent {
   onRightClickHandler(event: any) {
     console.log("Right Click Handler", event);
   }
+
+  onFormatItemHandler(event: any) {
+    console.log("Format Item Handler", event);
+    event._node.element.nativeElement.innerHTML = `<b>New Level ${event._node.level} Old Name: ( ${event._node.dataItem.name} )</b>`
+  }
 }

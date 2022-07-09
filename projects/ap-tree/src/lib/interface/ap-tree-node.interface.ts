@@ -1,4 +1,4 @@
-import { ApTreeView } from "./global.interface";
+import { ApTreeView } from "../baseClasses/ap-tree-view";
 
 export interface ApTreeNode {
     level: number; // Top level 0
@@ -6,6 +6,8 @@ export interface ApTreeNode {
     isChecked: boolean;
     isCollapsed: boolean;
     isDisabled: boolean;
+    element: HTMLElement;
+    dataItem: any;
     itemsSource: Array<any>;
     nodes: Array<ApTreeNode> | null; // Array of children node return null if no children
     parentNode: ApTreeNode;

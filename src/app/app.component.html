@@ -1,1 +1,5 @@
-<ap-tree [itemSource]="itemSource" [displayMemberPath]="'name'" (onClick)="onClickHandler($event)" (onRightClick)="onRightClickHandler($event)"></ap-tree>
+<ap-tree [itemSource]="itemSource" 
+    [displayMemberPath]="'name'" 
+    (onClick)="onClickHandler($event)"
+    (onRightClick)="onRightClickHandler($event)"
+    (onFormatItem)="onFormatItemHandler($event)"></ap-tree>
