@@ -1,6 +1,7 @@
 # ApTree
-## Github URL
+## Github URL for Implementation example
 https://github.com/abhishek1681993/ap-tree-demo/tree/master
+Find expample in app component of above GIT repository
 
 ## Use
 ### import "ApTreeModule" into your module
@@ -19,7 +20,7 @@ import { ApTreeModule } from 'ap-tree';
 ``
 ### Use component selector in your template
 `
-<ap-tree [itemSource]="itemSource" (onClick)="onClickHandler($event)" (onRightClick)="onRightClickHandler($event)"></ap-tree>
+<ap-tree [itemSource]="itemSource" (onClick)="onClickHandler($event)" (onRightClick)="onRightClickHandler($event)" (onFormatItem)="onFormatItemHandler($event)></ap-tree>
 `
 ### Where itemSource
 `
@@ -41,6 +42,15 @@ export interface ApTreeNodeConfig {
 }
 `
 
+`
+onFormatItemHandler(event: any) {
+    console.log("Format Item Handler", event);
+    event._node.element.nativeElement.innerHTML = "Your logic to construct node"
+     // You can get node data as event._node.dataItem
+     // You can get node level as event._node.level
+     // New Level ${event._node.level} Old Name: ( ${event._node.dataItem.name} ) 
+  }
+`
 
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
