@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ApTreeComponent } from './ap-tree.component';
 import { ApTreeChildComponent } from './components/ap-tree-child/ap-tree-child.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -11,7 +12,8 @@ import { ApTreeChildComponent } from './components/ap-tree-child/ap-tree-child.c
     ApTreeChildComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     ApTreeComponent

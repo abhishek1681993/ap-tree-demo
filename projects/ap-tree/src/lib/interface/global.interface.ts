@@ -8,8 +8,6 @@ export interface ApTreeData {
 export interface ApTreeNodeConfig {
     hasPendingChildren: boolean;
     hasChildren: boolean;
+    showImage?: boolean;
+    showCheckbox?: boolean;
 }
-
-// export interface ApItemsource {
-    
-// }

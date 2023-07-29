@@ -1,16 +1,15 @@
 <div *ngIf="apTreeNode">
-    <span class="tree-node" (contextmenu)="onRightClickHandler($event, apTreeNode)" (click)="onClickHandler($event, apTreeNode)">
+    <div class="tree-node" (contextmenu)="onRightClickHandler($event, apTreeNode)"
+        (click)="onClickHandler($event, apTreeNode)">
         <i *ngIf="hasChildren" class="arrow" [ngClass]="isChildHidden ? 'right' : 'down'"></i>
+        <input *ngIf="apTreeNode.config?.showCheckbox" type="checkbox" [(ngModel)]="apTreeNode.data['_isChecked']">
+        <img *ngIf="apTreeNode.config?.showImage" [src]="apTreeNode?.data['_imagePath']">
         <span #apTreeChildElement class="text-node">{{apTreeNode?.data && apTreeNode?.data[_displayMemberPath]}}</span>
-    </span>    
-    <div [hidden] ="isChildHidden" class="child-nodes content" *ngIf="hasChildren">
+    </div>
+    <div [hidden]="isChildHidden" class="child-nodes content" *ngIf="hasChildren">
         <div *ngFor="let item of apTreeNode?.children">
-            <ap-tree-child 
-                [apTreeNode]="item"
-                [level]="level+1"
-                [displayMemberPath]="_displayMemberPath_child"
-                (onClick)="onClick_Child($event)"
-                (onRightClick)="onRightClick_Child($event)"
+            <ap-tree-child [apTreeNode]="item" [level]="level+1" [displayMemberPath]="_displayMemberPath_child"
+                (onClick)="onClick_Child($event)" (onRightClick)="onRightClick_Child($event)"
                 (onFormatItem)="onformatItem_Child($event)"></ap-tree-child>
         </div>
     </div>

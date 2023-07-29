@@ -1,5 +1,17 @@
-<ap-tree [itemSource]="itemSource" 
-    [displayMemberPath]="'name'" 
-    (onClick)="onClickHandler($event)"
-    (onRightClick)="onRightClickHandler($event)"
-    (onFormatItem)="onFormatItemHandler($event)"></ap-tree>
+<!-- <form action="formSubmit($event)" id="formElement">
+    <input type="text" [(ngModel)]="formValue.inputValue" disabled="true">
+    <select>
+        <option value="first">First</option>
+        <option value="firs11">First11</option>
+    </select>
+
+    <h4>You can't type space in here:</h4>
+    <input type="text" (keydown.space)="$event.preventDefault()">
+
+    <h4>You can't type enter in here:</h4>
+    <textarea (keydown.enter)="$event.preventDefault()"></textarea>
+    <textarea (keydown.enter)="$event.preventDefault()"></textarea>
+</form> -->
+
+<ap-tree [itemSource]="itemSource" [displayMemberPath]="'name'" (onClick)="onClickHandler($event)"
+    (onRightClick)="onRightClickHandler($event)" (onFormatItem)="onFormatItemHandler($event)"></ap-tree>
